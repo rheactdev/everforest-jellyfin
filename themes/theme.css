@@ -15,7 +15,7 @@
 .button-link,
 .button-flat:hover,
 .itemAction:focus,
-.emby-tab-button-active > .emby-button-foreground,
+.emby-tab-button-active>.emby-button-foreground,
 .emby-button-foreground:focus,
 .mdl-slider,
 .headerRight,
@@ -29,8 +29,8 @@
 .button-accent-flat,
 .metadataSidebarIcon,
 .layout-tv .paper-icon-button-light.show-focus:focus,
-.mdl-radio.show-focus .mdl-radio__button:focus + .mdl-radio__circles .mdl-radio__inner-circle,
-.mdl-radio.show-focus .mdl-radio__button:focus + .mdl-radio__circles .mdl-radio__outer-circle {
+.mdl-radio.show-focus .mdl-radio__button:focus+.mdl-radio__circles .mdl-radio__inner-circle,
+.mdl-radio.show-focus .mdl-radio__button:focus+.mdl-radio__circles .mdl-radio__outer-circle {
   color: var(--main-color) !important;
 }
 
@@ -46,9 +46,11 @@
 .mdl-slider-background-lower {
   background-color: var(--main-color);
 }
+
 .mdl-slider::-moz-range-thumb {
   background-color: var(--main-color);
 }
+
 .mdl-slider::-webkit-slider-thumb {
   background-color: var(--main-color);
 }
@@ -57,7 +59,7 @@
   background-color: var(--main-color) !important;
 }
 
-.emby-checkbox:focus:not(:checked) + span + .checkboxOutline,
+.emby-checkbox:focus:not(:checked)+span+.checkboxOutline,
 .mdl-spinner__layer,
 .itemSelectionPanel {
   border-color: var(--main-color);
@@ -69,7 +71,7 @@
   border-color: var(--main-color) !important;
 }
 
-.emby-checkbox:checked + span + .checkboxOutline,
+.emby-checkbox:checked+span+.checkboxOutline,
 .itemProgressBarForeground {
   color: var(--main-text);
   background-color: var(--main-color);
@@ -92,7 +94,7 @@
   background-color: var(--hover-background) !important;
 }
 
-.selectionCommandsPanel > button > .material-icons,
+.selectionCommandsPanel>button>.material-icons,
 .checkboxOutline .checkboxIcon-checked {
   color: var(--main-background);
 }
@@ -119,6 +121,7 @@
   color: var(--main-background);
   background: var(--main-color);
 }
+
 ::-moz-selection {
   color: var(--main-background);
   background: var(--main-color);
@@ -153,7 +156,7 @@ div[data-role="controlgroup"] a.ui-btn-active {
   background: var(--main-background);
 }
 
-.emby-select-withcolor > option,
+.emby-select-withcolor>option,
 .backgroundContainer,
 .nowPlayingPlaylist,
 .collapseContent {
@@ -267,7 +270,7 @@ div[data-role="controlgroup"] .emby-button,
 .emby-button-foreground,
 .iconOsd .iconOsdIcon,
 .upNextContainer,
-.selectionCommandsPanel > button:hover > .material-icons,
+.selectionCommandsPanel>button:hover>.material-icons,
 .paperListLabel,
 legend {
   color: var(--main-text);
@@ -325,4 +328,12 @@ legend {
 
 .starIcon {
   color: var(--yellow-color);
+}
+
+@media (min-width: 645px) {
+  .emby-tabs-slider {
+    position: absolute;
+    top: 4%;
+    right: 50%;
+  }
 }
