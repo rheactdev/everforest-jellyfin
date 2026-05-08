@@ -1,9 +1,9 @@
 /**
- * Catppuccin for Jellyfin
- * Copyright (c) 2021 Catppuccin
+ * Everforest for Jellyfin
+ * Inspired by Catppuccin for Jellyfin
  * Licensed under the MIT License
- * https://github.com/catppuccin/jellyfin/blob/main/LICENSE
  */
+
 
 * {
   scrollbar-color: var(--hover-background) var(--second-background);

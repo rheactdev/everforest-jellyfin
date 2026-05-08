@@ -17,9 +17,3 @@ jobs:
         with:
           dry: true
           prettier_options: "--check ."
-  whiskers:
-    needs: formatting
-    uses: catppuccin/actions/.github/workflows/whiskers-check.yml@v1
-    with:
-      args: jellyfin.tera
-    secrets: inherit
