@@ -4,6 +4,7 @@
  * Licensed under the MIT License
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 * {
   scrollbar-color: var(--hover-background) var(--second-background);
@@ -328,6 +329,20 @@ legend {
 
 .starIcon {
   color: var(--yellow-color);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+select,
+textarea,
+button {
+  font-family: 'Outfit', sans-serif !important;
 }
 
 @media (min-width: 645px) {
