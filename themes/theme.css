@@ -332,8 +332,8 @@ legend {
 
 @media (min-width: 645px) {
   .emby-tabs-slider {
-    position: absolute;
-    top: 4%;
-    right: 50%;
+    position: absolute !important;
+    top: 4% !important;
+    right: 50% !important;
   }
 }
