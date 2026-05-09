@@ -356,3 +356,10 @@ button {
 .libraryPage:not(.noSecondaryNavPage) {
   background: var(--bg-dim);
 }
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  color: var(--main-color) !important;
+}
