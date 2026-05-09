@@ -344,3 +344,15 @@ textarea,
 button {
   font-family: 'Outfit', sans-serif !important;
 }
+
+.sectionTabs {
+  background-color: var(--bg0);
+}
+
+.skinHeader:not(.osdHeader) {
+  background-color: var(--bg1) !important;
+}
+
+.libraryPage:not(.noSecondaryNavPage) {
+  background: var(--bg-dim);
+}
