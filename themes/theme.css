@@ -344,11 +344,3 @@ textarea,
 button {
   font-family: 'Outfit', sans-serif !important;
 }
-
-@media (min-width: 645px) {
-  .emby-tabs-slider {
-    position: absolute !important;
-    top: 4% !important;
-    right: 50% !important;
-  }
-}
