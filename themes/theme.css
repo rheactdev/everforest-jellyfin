@@ -361,5 +361,8 @@ h1,
 h2,
 h3 {
   font-weight: 600;
+}
+
+h3 {
   color: var(--main-color) !important;
 }
